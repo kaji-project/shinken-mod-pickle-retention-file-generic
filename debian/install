@@ -1,3 +1,3 @@
-module/* /usr/share/pyshared/shinken/modules/pickle-retention-file-scheduler
-README.md /usr/share/doc/shinken-module-pickle-retention-file-scheduler
+module/* /usr/share/pyshared/shinken/modules/pickle-retention-file-generic
+README.md /usr/share/doc/shinken-module-pickle-retention-file-generic
 debian/etc/* /etc/shinken

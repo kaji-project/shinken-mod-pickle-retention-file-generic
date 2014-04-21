@@ -3,4 +3,4 @@
 	dh $@ --with python2
 
 override_dh_python2:
-	dh_python2 /usr/share/shinken/modules
+	dh_python2 /usr/share/pyshared/shinken/modules
