@@ -16,7 +16,8 @@ Depends: ${misc:Depends}, shinken-common
 Breaks: shinken (<< 2~), shinken-common (<< 2~), shinken-core (<< 2~)
 Replaces: shinken-module-retention-picklefile
 Description: Shinken pickle-retention-file-generic module
- Module for loading/saving retention data from a flat file (for arbiter & broker)
+ Module for loading/saving retention data from a flat file
+ (for arbiter & broker)
  .
  Shinken is a new, Nagios compatible monitoring tool, written in Python. The
  main goal of Shinken is to allow users to have a fully flexible architecture
