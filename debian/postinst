@@ -21,7 +21,7 @@ case "$1" in
     configure)
         # Move old config files
         if dpkg-maintscript-helper supports mv_conffile 2>/dev/null; then
-            dpkg-maintscript-helper mv_conffile /etc/shinken/shinken-specific/retention-picklefile.cfg /etc/shinken/modules/retention-picklefile.cfg 1.4.2-1 -- "$@"
+            dpkg-maintscript-helper mv_conffile /etc/shinken/shinken-specific/retention-picklefile.cfg /etc/shinken/modules/retention-picklefile.cfg 1.4.2-1 shinken-module-retention-picklefile -- "$@"
         fi
     ;;
 
