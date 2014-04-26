@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for shinken-common
+# postinst script for shinken-module-pickle-retention-file-generic 
 #
 # see: dh_installdeb(1)
 
