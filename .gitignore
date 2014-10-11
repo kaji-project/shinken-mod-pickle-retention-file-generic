@@ -29,8 +29,17 @@ nosetests.xml
 # Translations
 *.mo
 
+# OS generated files
+*.pyc
+*.DS_Store*
+
 # Mr Developer
 .mr.developer.cfg
 .project
 .pydevproject
-*~
+
+# Vim
+*.swp
+
+# Quilt
+.pc
