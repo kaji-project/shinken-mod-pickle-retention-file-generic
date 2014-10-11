@@ -1,3 +1,9 @@
+shinken-mod-pickle-retention-file-generic (1.4.1-2.kaji1) unstable; urgency=medium
+
+  * Kaji release
+
+ -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Sat, 11 Oct 2014 12:53:28 -0400
+
 shinken-mod-pickle-retention-file-generic (1.4.1-2) unstable; urgency=medium
 
   * Architecture: all
