@@ -17,7 +17,10 @@ Shinken Pickle Retention module for all daemons
 
 %prep
 %setup -q
-
+for patch_file in $(cat debian/patches/series | grep -v "^#")
+do
+%{__patch} -p1 < debian/patches/$patch_file
+done
 
 %build
 

@@ -1,0 +1,4 @@
+distro:
+  - centos_6
+spec: shinken-mod-pickle-retention-file-generic.spec
+debian: debian
