@@ -39,8 +39,7 @@ install -pm0755 etc/modules/* %{buildroot}/etc/shinken/modules
 /usr/share/pyshared/shinken/modules/pickle-retention-file-generic
 %config(noreplace) %{_sysconfdir}/shinken/modules/
 
-%docdir
-%{_docdir}/%{name}
+%doc %{_docdir}/%{name}
 
 
 %changelog
