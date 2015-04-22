@@ -1,6 +1,6 @@
 Name:		shinken-mod-pickle-retention-file-generic
 Version:	1.4.1
-Release:	2kaji0.2
+Release:	4kaji0.2
 Summary:	Shinken Module Pickle Retention for all daemons
 
 Group:		Network
@@ -46,5 +46,8 @@ install -pm0755 etc/modules/* %{buildroot}/etc/shinken/modules
 
 
 %changelog
+* Wed Apr 22 2015 Sébastien Coavoux <sebastien.coavoux@savoirfairelinux.com> 1.4.1-4kaji0.2
+- Sync with upstream
+
 * Wed Jan 21 2015 Sébastien Coavoux <sebastien.coavoux@savoirfairelinux.com> 1.4.1-2kaji0.2
 - Initial Package
